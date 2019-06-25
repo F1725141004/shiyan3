@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:layout_width="fill_parent"
+
+    android:layout_height="fill_parent"
+
+    >
+
+    <EditText
+
+        android:id="@+id/ori"
+        android:cursorVisible="false"
+
+
+        android:layout_height="wrap_content"
+        android:hint="显示屏幕方向"
+
+        android:layout_width="fill_parent"
+
+
+       />
+
+    <EditText
+
+        android:id="@+id/navigation"
+
+        android:cursorVisible="false"
+
+        android:layout_height="wrap_content"
+        android:hint="显示手机方向控制设备"
+        android:layout_width="fill_parent"
+
+
+
+       />
+
+    <EditText
+
+        android:id="@+id/touch"
+        android:hint="显示触摸屏状态"
+        android:layout_width="fill_parent"
+
+
+
+        android:cursorVisible="false"
+        android:layout_height="wrap_content"
+       />
+
+    <EditText
+
+        android:id="@+id/mnc"
+
+        android:layout_width="fill_parent"
+        android:hint="显示移动网络代号"
+
+
+        android:cursorVisible="false"
+        android:layout_height="wrap_content"
+       />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:id="@+id/bn"
+        android:text="获取手机信息"
+
+
+
+        android:layout_height="wrap_content"
+      />
+
+    <LinearLayout
+        android:gravity="bottom"
+        android:layout_width="fill_parent"
+
+        android:layout_height="fill_parent"
+
+       >
+
+        <Button
+
+            android:id="@+id/bn2"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+
+
+
+
+
+            android:text="返回"
+            android:layout_weight="1"
+            android:layout_gravity="bottom"
+
+            android:onClick="myClick"/>
+
+    </LinearLayout>
+
+</LinearLayout>
+
